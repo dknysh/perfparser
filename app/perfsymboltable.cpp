@@ -724,7 +724,20 @@ static QByteArray fakeSymbolFromSection(Dwfl_Module *mod, Dwarf_Addr addr)
     return sym;
 }
 
-static PerfAddressCache::SymbolCache cacheSymbols(Dwfl_Module *module, quint64 elfStart)
+static void relocatedAdjust(Elf *elfp, GElf_Word shndx, quint64 elfStart, bool &relocated, quint64 &adjust) {
+    //The module is relocated
+    GElf_Ehdr ehdr;
+    gelf_getehdr (elfp, &ehdr);
+    if (ehdr.e_type == ET_REL) {
+        Elf_Scn *refscn = elf_getscn (elfp, shndx);
+        GElf_Shdr refshdr_mem, *refshdr = gelf_getshdr (refscn, &refshdr_mem);
+        if (refshdr != nullptr)
+            adjust = refshdr->sh_addr - elfStart;
+        relocated = true;
+    }
+}
+
+static PerfAddressCache::SymbolCache cacheSymbols(Dwfl_Module *module, quint64 elfStart, bool isArmArch)
 {
     PerfAddressCache::SymbolCache cache;
 
@@ -736,11 +749,16 @@ static PerfAddressCache::SymbolCache cacheSymbols(Dwfl_Module *module, quint64 e
         GElf_Word shndx;
         quint64 start = 0;
         quint64 size = 0;
+        quint64 adjust = 0;
+        bool relocated = false;
         const auto symbol = dwfl_module_getsym_info(module, i, &sym, &symAddr, &shndx, &elfp, nullptr);
         if (symbol) {
-            start = sym.st_value;            
+            start = sym.st_value;
+            start = (isArmArch && (start & 1)) ? start - 1 : start;
             size = sym.st_size;
-            cache.append({symAddr - elfStart, start, size, symbol});
+
+            relocatedAdjust(elfp, shndx, elfStart, relocated, adjust);
+            cache.append({symAddr - elfStart, start, size, symbol, relocated, adjust});
         }
     }
     return cache;
@@ -769,9 +787,8 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
 
     Dwfl_Module *mod = module(ip, elf);
 
-    PerfUnwind::Location addressLocation(
-                (m_unwind->architecture() != PerfRegisterInfo::ARCH_ARM || (ip & 1))
-                ? ip : ip + 1, 0, -1, m_pid);
+    bool isArmArch = (m_unwind->architecture() == PerfRegisterInfo::ARCH_ARM);
+    PerfUnwind::Location addressLocation((!isArmArch || (ip & 1)) ? ip : ip + 1, 0, -1, m_pid);
     PerfUnwind::Location functionLocation(addressLocation);
 
     QByteArray symname;
@@ -785,7 +802,7 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
             // cache all symbols in a sorted lookup table and demangle them on-demand
             // note that the symbols within the symtab aren't necessarily sorted,
             // which makes searching repeatedly via dwfl_module_addrinfo potentially very slow
-            addressCache->setSymbolCache(elf.originalPath, cacheSymbols(mod, elfStart));
+            addressCache->setSymbolCache(elf.originalPath, cacheSymbols(mod, elfStart, isArmArch));
         }
 
         auto cachedAddrInfo = addressCache->findSymbol(elf.originalPath, addressLocation.address - elfStart);
@@ -794,6 +811,9 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
             symname = cachedAddrInfo.symname;
             start = cachedAddrInfo.value;
             size = cachedAddrInfo.size;
+
+            if (cachedAddrInfo.relocated)
+                off += cachedAddrInfo.adjust;
 
             Dwarf_Addr bias = 0;
             functionLocation.address -= off; // in case we don't find anything better
@@ -850,6 +870,11 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
             addressLocation.parentLocationId = m_unwind->resolveLocation(functionLocation);
         }
 
+        // start - relative address of the function start
+        // off - offset from the function start
+        quint64 relAddr = start + off;
+        addressLocation.relAddr = (isArmArch && (relAddr & 1)) ? relAddr - 1 : relAddr;
+
         if (!m_unwind->hasSymbol(addressLocation.parentLocationId)) {
             // no sufficient debug information. Use what we already know
             qint32 symId = m_unwind->resolveString(demangle(symname));
@@ -880,9 +905,6 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
         }
     }
 
-    // start - relative address of the function start
-    // off - offset from the function start
-    addressLocation.relAddr = start + off;
     Q_ASSERT(addressLocation.parentLocationId != -1);
     Q_ASSERT(m_unwind->hasSymbol(addressLocation.parentLocationId));
 
