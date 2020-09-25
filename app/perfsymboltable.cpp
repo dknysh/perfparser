@@ -725,6 +725,20 @@ static QByteArray fakeSymbolFromSection(Dwfl_Module *mod, Dwarf_Addr addr)
     return sym;
 }
 
+static quint64 relocatedAdjust(Elf *elfp, GElf_Word shndx, quint64 elfStart)
+{
+    // Check if the module is relocated
+    GElf_Ehdr ehdr;
+    gelf_getehdr (elfp, &ehdr);
+    if (ehdr.e_type == ET_REL) {
+        Elf_Scn *refscn = elf_getscn (elfp, shndx);
+        GElf_Shdr refshdr_mem, *refshdr = gelf_getshdr (refscn, &refshdr_mem);
+        if (refshdr != nullptr)
+            return refshdr->sh_addr - elfStart;
+    }
+    return 0;
+}
+
 static PerfAddressCache::SymbolCache cacheSymbols(Dwfl_Module *module, quint64 elfStart)
 {
     PerfAddressCache::SymbolCache cache;
@@ -733,9 +747,13 @@ static PerfAddressCache::SymbolCache cacheSymbols(Dwfl_Module *module, quint64 e
     for (int i = 0; i < numSymbols; ++i) {
         GElf_Sym sym;
         GElf_Addr symAddr;
-        const auto symbol = dwfl_module_getsym_info(module, i, &sym, &symAddr, nullptr, nullptr, nullptr);
-        if (symbol)
-            cache.append({symAddr - elfStart, sym.st_value, sym.st_size, symbol});
+        Elf *elfp;
+        GElf_Word shndx;
+        const auto symbol = dwfl_module_getsym_info(module, i, &sym, &symAddr, &shndx, &elfp, nullptr);
+        if (symbol) {
+            quint64 adjust = relocatedAdjust(elfp, shndx, elfStart);
+            cache.append({symAddr - elfStart, sym.st_value, sym.st_size, symbol, symbol, adjust});
+        }
     }
     return cache;
 }
@@ -788,6 +806,8 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
             mangledSymName = cachedAddrInfo.mangledSymName;
             start = cachedAddrInfo.value;
             size = cachedAddrInfo.size;
+
+            off += cachedAddrInfo.adjust;
 
             Dwarf_Addr bias = 0;
             functionLocation.address -= off; // in case we don't find anything better
