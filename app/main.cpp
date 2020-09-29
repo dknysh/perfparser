@@ -214,6 +214,12 @@ int main(int argc, char *argv[])
                                    QLatin1String("max-frames"), QLatin1String("64"));
     parser.addOption(maxFrames);
 
+    QCommandLineOption maxStack(QLatin1String("max-stack"),
+                                QCoreApplication::translate(
+                                "main", "Maximum size of call chain and branch stack."),
+                                QLatin1String("max-stack"), QLatin1String("127"));
+    parser.addOption(maxStack);
+
     parser.process(app);
 
     QScopedPointer<QFile> outfile;
@@ -268,6 +274,13 @@ int main(int argc, char *argv[])
         return InvalidOption;
     }
 
+    int maxStackValue = parser.value(maxStack).toInt(&ok);
+    if (!ok) {
+        qWarning() << "Failed to parse max-stack argument. Expected integer, got:"
+                   << parser.value(maxStack);
+        return InvalidOption;
+    }
+
     PerfUnwind unwind(outfile.data(), parser.value(sysroot), parser.isSet(debug) ?
                           parser.value(debug) : parser.value(sysroot) + parser.value(debug),
                       parser.value(extra), parser.value(appPath), parser.isSet(printStats));
@@ -281,6 +294,7 @@ int main(int argc, char *argv[])
     unwind.setTargetEventBufferSize(targetEventBufferSize);
     unwind.setMaxEventBufferSize(maxEventBufferSize);
     unwind.setMaxUnwindFrames(maxFramesValue);
+    unwind.setMaxUnwindStack(maxStackValue);
 
     PerfHeader header(infile.data());
     PerfAttributes attributes;
