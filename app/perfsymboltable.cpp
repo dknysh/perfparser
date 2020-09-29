@@ -328,7 +328,7 @@ int PerfSymbolTable::insertSubprogram(CuDieRangeMapping *cudie, Dwarf_Die *top, 
     const QByteArray file = dwarf_decl_file(top);
 
     qint32 fileId = m_unwind->resolveString(file);
-    int locationId = m_unwind->resolveLocation(PerfUnwind::Location(entry, fileId, m_pid, line,
+    int locationId = m_unwind->resolveLocation(PerfUnwind::Location(entry, 0, fileId, m_pid, line,
                                                                     column, inlineCallLocationId));
     DieName dieName = cudie->dieName(top);
     const auto name = dieName.name;
@@ -767,7 +767,7 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
 
     PerfUnwind::Location addressLocation(
                 (m_unwind->architecture() != PerfRegisterInfo::ARCH_ARM || (ip & 1))
-                ? ip : ip + 1, -1, m_pid);
+                ? ip : ip + 1, 0, -1, m_pid);
     PerfUnwind::Location functionLocation(addressLocation);
 
     QByteArray symname, mangledSymName;
@@ -879,6 +879,9 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
         }
     }
 
+    // start - relative address of the function start
+    // off - offset from the function start
+    addressLocation.relAddr = start + off;
     Q_ASSERT(addressLocation.parentLocationId != -1);
     Q_ASSERT(m_unwind->hasSymbol(addressLocation.parentLocationId));
 
