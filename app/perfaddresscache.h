@@ -42,17 +42,22 @@ public:
 
     struct SymbolCacheEntry
     {
-        SymbolCacheEntry(quint64 offset = 0, quint64 size = 0, const QByteArray &symname = {})
+        SymbolCacheEntry(quint64 offset = 0, quint64 value = 0, quint64 size = 0, const QByteArray &symname = {}, const QByteArray &mangledSymName = {})
             : offset(offset)
+            , value(value)
             , size(size)
             , symname(symname)
+            , mangledSymName(mangledSymName)
         {}
 
         bool isValid() const { return !symname.isEmpty(); }
 
         quint64 offset;
+        // st_value in elf symbol table entry
+        quint64 value;
         quint64 size;
         QByteArray symname;
+        QByteArray mangledSymName;
         bool demangled = false;
     };
     using SymbolCache = QVector<SymbolCacheEntry>;
