@@ -214,6 +214,8 @@ void TestPerfData::testFiles_data()
         "vector_static_gcc/perf.data",
         "vector_static_gcc/perf.data.zstd",
         "fork_static_gcc/perf.data.zstd",
+        "disassembler_dwarf/perf.dwarf.data",
+        "disassembler_lbr/perf.lbr.data"
     };
     for (auto file : files)
         QTest::addRow("%s", file) << file;
