@@ -29,6 +29,12 @@
 /// @return the demangled symbol name
 QByteArray demangle(const QByteArray &mangledName);
 
+struct DieName
+{
+    QByteArray name;
+    QByteArray mangled;
+};
+
 struct DwarfRange
 {
     Dwarf_Addr low;
@@ -90,7 +96,7 @@ public:
     SubProgramDie *findSubprogramDie(Dwarf_Addr offset);
 
     /// @return a fully qualified, demangled symbol name for @p die
-    QByteArray dieName(Dwarf_Die *die);
+    DieName dieName(Dwarf_Die *die);
 
 private:
     void addSubprograms();
@@ -98,7 +104,7 @@ private:
     Dwarf_Addr m_bias = 0;
     DieRanges m_cuDieRanges;
     QVector<SubProgramDie> m_subPrograms;
-    QHash<Dwarf_Off, QByteArray> m_dieNameCache;
+    QHash<Dwarf_Off, DieName> m_dieNameCache;
 };
 
 /**

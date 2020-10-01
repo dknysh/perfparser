@@ -133,7 +133,7 @@ Dwarf_Die *specificationDie(Dwarf_Die *die, Dwarf_Die *dieMem)
 }
 
 /// prepend the names of all scopes that reference the @p die to @p name
-void prependScopeNames(QByteArray &name, Dwarf_Die *die, QHash<Dwarf_Off, QByteArray> &cache)
+void prependScopeNames(DieName &dieName, Dwarf_Die *die, QHash<Dwarf_Off, DieName> &cache)
 {
     Dwarf_Die dieMem;
     Dwarf_Die *scopes = nullptr;
@@ -145,6 +145,8 @@ void prependScopeNames(QByteArray &name, Dwarf_Die *die, QHash<Dwarf_Off, QByteA
         int trailing;
     };
     QVector<ScopesToCache> cacheOps;
+    auto &name = dieName.name;
+    auto &mangled = dieName.mangled;
 
     // skip scope for the die itself at the start and the compile unit DIE at end
     for (int i = 1; i < nscopes - 1; ++i) {
@@ -154,7 +156,8 @@ void prependScopeNames(QByteArray &name, Dwarf_Die *die, QHash<Dwarf_Off, QByteA
 
         auto it = cache.find(scopeOffset);
         if (it != cache.end()) {
-            name.prepend(*it);
+            name.prepend(*it->name);
+            mangled.prepend(*it->mangled);
             // we can stop, cached names are always fully qualified
             break;
         }
@@ -162,10 +165,12 @@ void prependScopeNames(QByteArray &name, Dwarf_Die *die, QHash<Dwarf_Off, QByteA
         if (auto scopeLinkageName = linkageName(scope)) {
             // prepend the fully qualified linkage name
             name.prepend("::");
+            mangled.prepend("::");
             cacheOps.append({scopeOffset, name.size()});
             // we have to demangle the scope linkage name, otherwise we get a
             // mish-mash of mangled and non-mangled names
             name.prepend(demangle(scopeLinkageName));
+            mangled.prepend(scopeLinkageName);
             // we can stop now, the scope is fully qualified
             break;
         }
@@ -173,8 +178,10 @@ void prependScopeNames(QByteArray &name, Dwarf_Die *die, QHash<Dwarf_Off, QByteA
         if (auto scopeName = dwarf_diename(scope)) {
             // prepend this scope's name, e.g. the class or namespace name
             name.prepend("::");
+            mangled.prepend("::");
             cacheOps.append({scopeOffset, name.size()});
             name.prepend(scopeName);
+            mangled.prepend(scopeName);
         }
 
         if (auto specification = specificationDie(scope, &dieMem)) {
@@ -183,13 +190,15 @@ void prependScopeNames(QByteArray &name, Dwarf_Die *die, QHash<Dwarf_Off, QByteA
             cacheOps.append({scopeOffset, name.size()});
             cacheOps.append({dwarf_dieoffset(specification), name.size()});
             // follow the scope's specification DIE instead
-            prependScopeNames(name, specification, cache);
+            DieName names = {name, mangled};
+            dieName = names;
+            prependScopeNames(dieName, specification, cache);
             break;
         }
     }
 
     for (const auto &cacheOp : cacheOps)
-        cache[cacheOp.offset] = name.mid(0, name.size() - cacheOp.trailing);
+        cache[cacheOp.offset] = {name.mid(0, name.size() - cacheOp.trailing), mangled.mid(0, mangled.size() - cacheOp.trailing)};
 
     eu_compat_free(scopes);
 }
@@ -199,24 +208,26 @@ bool operator==(const Dwarf_Die &lhs, const Dwarf_Die &rhs)
     return lhs.addr == rhs.addr && lhs.cu == rhs.cu && lhs.abbrev == rhs.abbrev;
 }
 
-QByteArray qualifiedDieName(Dwarf_Die *die, QHash<Dwarf_Off, QByteArray> &cache)
+DieName qualifiedDieName(Dwarf_Die *die, QHash<Dwarf_Off, DieName> &cache)
 {
     // linkage names are fully qualified, meaning we can stop early then
     if (auto name = linkageName(die))
-        return name;
+        return {name, name};
 
     // otherwise do a more complex lookup that includes namespaces and other context information
     // this is important for inlined subroutines such as lambdas or std:: algorithms
     QByteArray name = dwarf_diename(die);
+    DieName names = {name, name};
+    auto &dieName = names;
 
     // use the specification DIE which is within the DW_TAG_namespace
     Dwarf_Die dieMem;
     if (auto specification = specificationDie(die, &dieMem))
         die = specification;
 
-    prependScopeNames(name, die, cache);
+    prependScopeNames(dieName, die, cache);
 
-    return name;
+    return dieName;
 }
 
 QByteArray demangle(const QByteArray &mangledName)
@@ -314,13 +325,17 @@ void CuDieRangeMapping::addSubprograms()
     }, cudie());
 }
 
-QByteArray CuDieRangeMapping::dieName(Dwarf_Die *die)
+DieName CuDieRangeMapping::dieName(Dwarf_Die *die)
 {
-    auto &name = m_dieNameCache[dwarf_dieoffset(die)];
-    if (name.isEmpty())
-        name = demangle(qualifiedDieName(die, m_dieNameCache));
-
-    return name;
+    auto &dieName = m_dieNameCache[dwarf_dieoffset(die)];
+    auto &name = dieName.name;
+    auto &mangled = dieName.mangled;
+    if (name.isEmpty()) {
+        dieName = qualifiedDieName(die, m_dieNameCache);
+        name = demangle(dieName.name);
+        mangled = dieName.mangled;
+    }
+    return {name, mangled};
 }
 
 PerfDwarfDieCache::PerfDwarfDieCache(Dwfl_Module *mod)
