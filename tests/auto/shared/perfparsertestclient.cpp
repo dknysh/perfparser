@@ -104,7 +104,7 @@ void PerfParserTestClient::extractTrace(QIODevice *device)
         case LocationDefinition: {
             qint32 id;
             LocationEvent location;
-            stream >> id >> location.address >> location.file >> location.pid >> location.line
+            stream >> id >> location.address >> location.relAddr >> location.file >> location.pid >> location.line
                    >> location.column >> location.parentLocationId;
             if (location.file != -1)
                 checkString(location.file);
@@ -117,7 +117,7 @@ void PerfParserTestClient::extractTrace(QIODevice *device)
         case SymbolDefinition: {
             qint32 id;
             SymbolEvent symbol;
-            stream >> id >> symbol.name >> symbol.binary >> symbol.path >> symbol.isKernel;
+            stream >> id >> symbol.name >> symbol.relAddr >> symbol.size >> symbol.binary >> symbol.path >> symbol.isKernel;
             if (symbol.name != -1)
                 checkString(symbol.name);
             if (symbol.binary != -1)

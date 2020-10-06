@@ -56,21 +56,21 @@ vector_static_c	337401	337401	57697.314658748
 	ffffffffb94012ee
 	0	  [kernel.kallsyms]_text [kernel]
 	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:147:4
-	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:144:0	void __gnu_cxx::new_allocator<double>::construct<double, double>(double*, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:144:0
 	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:484:-1
-	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:482:0	void std::allocator_traits<std::allocator<double> >::construct<double, double>(std::allocator<double>&, double*, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:482:0
 	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:449:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -108,21 +108,21 @@ vector_static_c	337401	337401	57697.314680488
 	ffffffffb94012ee
 	0	  [kernel.kallsyms]_text [kernel]
 	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:147:4
-	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:144:0	void __gnu_cxx::new_allocator<double>::construct<double, double>(double*, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:144:0
 	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:484:-1
-	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:482:0	void std::allocator_traits<std::allocator<double> >::construct<double, double>(std::allocator<double>&, double*, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:482:0
 	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:449:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -162,21 +162,21 @@ vector_static_c	337401	337401	57697.314692265
 	ffffffffb94012ee
 	0	  [kernel.kallsyms]_text [kernel]
 	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:147:4
-	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:144:0	void __gnu_cxx::new_allocator<double>::construct<double, double>(double*, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:144:0
 	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:484:-1
-	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:482:0	void std::allocator_traits<std::allocator<double> >::construct<double, double>(std::allocator<double>&, double*, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:482:0
 	402710	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:449:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -204,25 +204,25 @@ vector_static_c	337401	337401	57697.314709902
 	45abd3
 	45ab80	__memcpy_avx_unaligned_erms vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40272f	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:911:2
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0	_ZSt14__relocate_a_1IddENSt9enable_ifIXsr3std24__is_bitwise_relocatableIT_EE5valueEPS1_E4typeES2_S2_S2_RSaIT0_E vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:946:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0	double* std::__relocate_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:453:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0	std::vector<double, std::allocator<double> >::_S_do_relocate(double*, double*, double*, std::allocator<double>&, std::integral_constant<bool, true>) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:466:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0	std::vector<double, std::allocator<double> >::_S_relocate(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:461:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -236,15 +236,15 @@ vector_static_c	337401	337401	57697.314751138
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -258,15 +258,15 @@ vector_static_c	337401	337401	57697.314846047
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -278,13 +278,13 @@ vector_static_c	337401	337401	57697.314996642
 	418ccf
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -318,25 +318,25 @@ vector_static_c	337401	337401	57697.315177730
 	45abd3
 	45ab80	__memcpy_avx_unaligned_erms vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40272f	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:911:2
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0	_ZSt14__relocate_a_1IddENSt9enable_ifIXsr3std24__is_bitwise_relocatableIT_EE5valueEPS1_E4typeES2_S2_S2_RSaIT0_E vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:946:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0	double* std::__relocate_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:453:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0	std::vector<double, std::allocator<double> >::_S_do_relocate(double*, double*, double*, std::allocator<double>&, std::integral_constant<bool, true>) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:466:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0	std::vector<double, std::allocator<double> >::_S_relocate(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:461:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -350,15 +350,15 @@ vector_static_c	337401	337401	57697.315376058
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -370,13 +370,13 @@ vector_static_c	337401	337401	57697.315580327
 	419570
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -390,23 +390,23 @@ vector_static_c	337401	337401	57697.315791167
 	431cdd
 	431690	_int_free vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40273c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:128:2
-	402735	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:119:0	__gnu_cxx::new_allocator<double>::deallocate(double*, unsigned long) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402735	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/ext/new_allocator.h:119:0
 	402735	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:470:-1
-	402735	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:469:0	std::allocator_traits<std::allocator<double> >::deallocate(std::allocator<double>&, double*, unsigned long) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402735	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/alloc_traits.h:469:0
 	402735	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:351:-1
-	402730	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:347:0	std::_Vector_base<double, std::allocator<double> >::_M_deallocate(double*, unsigned long) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402730	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:347:0
 	402730	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:500:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -418,13 +418,13 @@ vector_static_c	337401	337401	57697.316007790
 	4195a5
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -438,15 +438,15 @@ vector_static_c	337401	337401	57697.316229231
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -458,13 +458,13 @@ vector_static_c	337401	337401	57697.316454465
 	4189dc
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -476,13 +476,13 @@ vector_static_c	337401	337401	57697.316683420
 	419460
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -498,25 +498,25 @@ vector_static_c	337401	337401	57697.316915884
 	45abd3
 	45ab80	__memcpy_avx_unaligned_erms vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40272f	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:911:2
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0	_ZSt14__relocate_a_1IddENSt9enable_ifIXsr3std24__is_bitwise_relocatableIT_EE5valueEPS1_E4typeES2_S2_S2_RSaIT0_E vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:946:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0	double* std::__relocate_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:453:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0	std::vector<double, std::allocator<double> >::_S_do_relocate(double*, double*, double*, std::allocator<double>&, std::integral_constant<bool, true>) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:466:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0	std::vector<double, std::allocator<double> >::_S_relocate(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:461:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -528,13 +528,13 @@ vector_static_c	337401	337401	57697.317152310
 	418ea6
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -553,15 +553,15 @@ vector_static_c	337401	337401	57697.317627942
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -573,13 +573,13 @@ vector_static_c	337401	337401	57697.317867990
 	419228
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -591,13 +591,13 @@ vector_static_c	337401	337401	57697.318113678
 	418c6c
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -609,13 +609,13 @@ vector_static_c	337401	337401	57697.318357113
 	4191ea
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -627,13 +627,13 @@ vector_static_c	337401	337401	57697.318600578
 	4194cb
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -645,13 +645,13 @@ vector_static_c	337401	337401	57697.318844689
 	4189a8
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -685,25 +685,25 @@ vector_static_c	337401	337401	57697.319090507
 	45abd3
 	45ab80	__memcpy_avx_unaligned_erms vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40272f	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:911:2
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0	_ZSt14__relocate_a_1IddENSt9enable_ifIXsr3std24__is_bitwise_relocatableIT_EE5valueEPS1_E4typeES2_S2_S2_RSaIT0_E vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:946:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0	double* std::__relocate_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:453:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0	std::vector<double, std::allocator<double> >::_S_do_relocate(double*, double*, double*, std::allocator<double>&, std::integral_constant<bool, true>) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:466:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0	std::vector<double, std::allocator<double> >::_S_relocate(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:461:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -717,25 +717,25 @@ vector_static_c	337401	337401	57697.319339920
 	45abd3
 	45ab80	__memcpy_avx_unaligned_erms vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40272f	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:911:2
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0	_ZSt14__relocate_a_1IddENSt9enable_ifIXsr3std24__is_bitwise_relocatableIT_EE5valueEPS1_E4typeES2_S2_S2_RSaIT0_E vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:946:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0	double* std::__relocate_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:453:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0	std::vector<double, std::allocator<double> >::_S_do_relocate(double*, double*, double*, std::allocator<double>&, std::integral_constant<bool, true>) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:466:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0	std::vector<double, std::allocator<double> >::_S_relocate(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:461:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -747,15 +747,15 @@ vector_static_c	337401	337401	57697.319587384
 	41848e
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -767,13 +767,13 @@ vector_static_c	337401	337401	57697.319833871
 	418f18
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -785,13 +785,13 @@ vector_static_c	337401	337401	57697.320080523
 	418c60
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -805,15 +805,15 @@ vector_static_c	337401	337401	57697.320327591
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -825,13 +825,13 @@ vector_static_c	337401	337401	57697.320578420
 	418b82
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -845,15 +845,15 @@ vector_static_c	337401	337401	57697.320829914
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -867,15 +867,15 @@ vector_static_c	337401	337401	57697.321077509
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -887,13 +887,13 @@ vector_static_c	337401	337401	57697.321337274
 	4196b8
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -905,15 +905,15 @@ vector_static_c	337401	337401	57697.321468353
 	4184c1
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -927,15 +927,15 @@ vector_static_c	337401	337401	57697.321597300
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -947,13 +947,13 @@ vector_static_c	337401	337401	57697.321740591
 	419541
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -965,13 +965,13 @@ vector_static_c	337401	337401	57697.321900495
 	418b82
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -981,9 +981,9 @@ vector_static_c	337401	337401	57697.322074536
 	cycles: 420523
 
 	402760	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4448:7
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -995,13 +995,13 @@ vector_static_c	337401	337401	57697.322260841
 	418f07
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1013,13 +1013,13 @@ vector_static_c	337401	337401	57697.322457215
 	419536
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1033,25 +1033,25 @@ vector_static_c	337401	337401	57697.322742520
 	45abd3
 	45ab80	__memcpy_avx_unaligned_erms vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40272f	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:911:2
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0	_ZSt14__relocate_a_1IddENSt9enable_ifIXsr3std24__is_bitwise_relocatableIT_EE5valueEPS1_E4typeES2_S2_S2_RSaIT0_E vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:946:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0	double* std::__relocate_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:453:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0	std::vector<double, std::allocator<double> >::_S_do_relocate(double*, double*, double*, std::allocator<double>&, std::integral_constant<bool, true>) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:466:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0	std::vector<double, std::allocator<double> >::_S_relocate(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:461:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1085,25 +1085,25 @@ vector_static_c	337401	337401	57697.322955746
 	45abd3
 	45ab80	__memcpy_avx_unaligned_erms vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40272f	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:911:2
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0	_ZSt14__relocate_a_1IddENSt9enable_ifIXsr3std24__is_bitwise_relocatableIT_EE5valueEPS1_E4typeES2_S2_S2_RSaIT0_E vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:906:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:946:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0	double* std::__relocate_a<double*, double*, std::allocator<double> >(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_uninitialized.h:940:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:453:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0	std::vector<double, std::allocator<double> >::_S_do_relocate(double*, double*, double*, std::allocator<double>&, std::integral_constant<bool, true>) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:450:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:466:-1
-	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0	std::vector<double, std::allocator<double> >::_S_relocate(double*, double*, double*, std::allocator<double>&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:462:0
 	402716	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:461:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0	void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:427:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:121:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0	void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/vector.tcc:110:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1201:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0	std::vector<double, std::allocator<double> >::push_back(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_vector.h:1200:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:522:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > >::operator=(double&&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_iterator.h:520:0
 	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1115,13 +1115,13 @@ vector_static_c	337401	337401	57697.323166410
 	4194a3
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1133,13 +1133,13 @@ vector_static_c	337401	337401	57697.323379243
 	4189ba
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1151,13 +1151,13 @@ vector_static_c	337401	337401	57697.323596731
 	418f18
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1169,13 +1169,13 @@ vector_static_c	337401	337401	57697.323818911
 	418cc3
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1187,13 +1187,13 @@ vector_static_c	337401	337401	57697.324045267
 	419654
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1207,15 +1207,15 @@ vector_static_c	337401	337401	57697.324274941
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1227,13 +1227,13 @@ vector_static_c	337401	337401	57697.324507478
 	4189c2
 	4189a0	__sin_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40264b	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:438:14
-	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0	_ZSt3sinIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:437:0
 	402640	./vector.cpp:13:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1245,13 +1245,13 @@ vector_static_c	337401	337401	57697.324744798
 	419228
 	4191d0	__cos_fma vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402662	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:197:14
-	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0	_ZSt3cosIiEN9__gnu_cxx11__enable_ifIXsr12__is_integerIT_EE7__valueEdE6__typeES2_ vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402652	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/cmath:196:0
 	402652	./vector.cpp:14:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1265,15 +1265,15 @@ vector_static_c	337401	337401	57697.324982654
 	418497
 	418480	hypotf32x vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	402670	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:50
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0	std::__complex_abs(double _Complex) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:611:0
 	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:-1
-	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0	double std::abs<double>(std::complex<double> const&) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	40266c	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/complex:619:0
 	40266c	./vector.cpp:15:-1
-	402640	./vector.cpp:12:0	main::$_0::operator()() vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402640	./vector.cpp:12:0
 	402640	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4450:-1
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0	std::back_insert_iterator<std::vector<double, std::allocator<double> > > std::generate_n<std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0>(std::back_insert_iterator<std::vector<double, std::allocator<double> > >, int, main::$_0) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_algo.h:4441:0
 	0	./vector.cpp:12:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
@@ -1283,9 +1283,9 @@ vector_static_c	337401	337401	57697.325222186
 	cycles: 545970
 
 	4027dd	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_numeric.h:135:39
-	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_numeric.h:128:0	double std::accumulate<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double) vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	0	/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/bits/stl_numeric.h:128:0
 	0	./vector.cpp:17:-1
-	402610	./vector.cpp:9:0	main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
+	402610	./vector.cpp:9:0
 	4212df
 	420e50	__libc_start_main vector_static_clang_v8.0.1 /tmp/vector_static_clang_v8.0.1 
 	40250d
