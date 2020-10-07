@@ -381,6 +381,7 @@ vector_static_g	349054	349054	65149.472738182
 vector_static_g	349054	349054	65149.472968985
 	cycles: 296517
 
+	41b3b0
 	41b3b0	__hypot_finite vector_static_gcc_v9.1.0 /home/milian/projects/kdab/rnd/hotspot/3rdparty/perfparser/tests/auto/perfdata/vector_static_gcc/vector_static_gcc_v9.1.0 
 	417a57
 	417a40	hypot vector_static_gcc_v9.1.0 /home/milian/projects/kdab/rnd/hotspot/3rdparty/perfparser/tests/auto/perfdata/vector_static_gcc/vector_static_gcc_v9.1.0 
@@ -410,6 +411,7 @@ vector_static_g	349054	349054	65149.473202768
 vector_static_g	349054	349054	65149.473438513
 	cycles: 302198
 
+	417f60
 	417f60	__sin_fma vector_static_gcc_v9.1.0 /home/milian/projects/kdab/rnd/hotspot/3rdparty/perfparser/tests/auto/perfdata/vector_static_gcc/vector_static_gcc_v9.1.0 
 	40155c	/usr/include/c++/9.1.0/bits/stl_algo.h:4449:13
 	40152b	/usr/include/c++/9.1.0/bits/stl_algo.h:4441:5	std::generate_n<std::back_insert_iterator<std::vector<double> >, int, main()::<lambda()> > vector_static_gcc_v9.1.0 /home/milian/projects/kdab/rnd/hotspot/3rdparty/perfparser/tests/auto/perfdata/vector_static_gcc/vector_static_gcc_v9.1.0 
@@ -711,7 +713,8 @@ vector_static_g	349054	349054	65149.476874692
 vector_static_g	349054	349054	65149.477126147
 	cycles: 315591
 
-	400480	<.plt+400480> vector_static_gcc_v9.1.0 /home/milian/projects/kdab/rnd/hotspot/3rdparty/perfparser/tests/auto/perfdata/vector_static_gcc/vector_static_gcc_v9.1.0 
+	400480
+	400430	_init vector_static_gcc_v9.1.0 /home/milian/projects/kdab/rnd/hotspot/3rdparty/perfparser/tests/auto/perfdata/vector_static_gcc/vector_static_gcc_v9.1.0 
 	40155c	/usr/include/c++/9.1.0/bits/stl_algo.h:4449:13
 	40152b	/usr/include/c++/9.1.0/bits/stl_algo.h:4441:5	std::generate_n<std::back_insert_iterator<std::vector<double> >, int, main()::<lambda()> > vector_static_gcc_v9.1.0 /home/milian/projects/kdab/rnd/hotspot/3rdparty/perfparser/tests/auto/perfdata/vector_static_gcc/vector_static_gcc_v9.1.0 
 	40152b	../../../manual/clients/vector.cpp:16:6
@@ -770,6 +773,7 @@ vector_static_g	349054	349054	65149.477622675
 vector_static_g	349054	349054	65149.477872418
 	cycles: 315915
 
+	41b3b0
 	41b3b0	__hypot_finite vector_static_gcc_v9.1.0 /home/milian/projects/kdab/rnd/hotspot/3rdparty/perfparser/tests/auto/perfdata/vector_static_gcc/vector_static_gcc_v9.1.0 
 	417a57
 	417a40	hypot vector_static_gcc_v9.1.0 /home/milian/projects/kdab/rnd/hotspot/3rdparty/perfparser/tests/auto/perfdata/vector_static_gcc/vector_static_gcc_v9.1.0 
