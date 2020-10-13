@@ -723,7 +723,12 @@ static QByteArray fakeSymbolFromSection(Dwfl_Module *mod, Dwarf_Addr addr)
     return sym;
 }
 
-static PerfAddressCache::SymbolCache cacheSymbols(Dwfl_Module *module, quint64 elfStart)
+static quint64 alignedAddress(quint64 addr, bool isArmArch)
+{
+    return (isArmArch && (addr & 1)) ? addr - 1 : addr;
+}
+
+static PerfAddressCache::SymbolCache cacheSymbols(Dwfl_Module *module, quint64 elfStart, bool isArmArch)
 {
     PerfAddressCache::SymbolCache cache;
 
@@ -732,8 +737,10 @@ static PerfAddressCache::SymbolCache cacheSymbols(Dwfl_Module *module, quint64 e
         GElf_Sym sym;
         GElf_Addr symAddr;
         const auto symbol = dwfl_module_getsym_info(module, i, &sym, &symAddr, nullptr, nullptr, nullptr);
-        if (symbol)
-            cache.append({symAddr - elfStart, sym.st_value, sym.st_size, symbol});
+        if (symbol) {
+            quint64 start = alignedAddress(sym.st_value, isArmArch);
+            cache.append({symAddr - elfStart, start, sym.st_size, symbol});
+        }
     }
     return cache;
 }
@@ -761,9 +768,8 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
 
     Dwfl_Module *mod = module(ip, elf);
 
-    PerfUnwind::Location addressLocation(
-                (m_unwind->architecture() != PerfRegisterInfo::ARCH_ARM || (ip & 1))
-                ? ip : ip + 1, 0, -1, m_pid);
+    bool isArmArch = (m_unwind->architecture() == PerfRegisterInfo::ARCH_ARM);
+    PerfUnwind::Location addressLocation((!isArmArch || (ip & 1)) ? ip : ip + 1, 0, -1, m_pid);
     PerfUnwind::Location functionLocation(addressLocation);
 
     QByteArray symname;
@@ -776,7 +782,7 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
             // cache all symbols in a sorted lookup table and demangle them on-demand
             // note that the symbols within the symtab aren't necessarily sorted,
             // which makes searching repeatedly via dwfl_module_addrinfo potentially very slow
-            addressCache->setSymbolCache(elf.originalPath, cacheSymbols(mod, elfStart));
+            addressCache->setSymbolCache(elf.originalPath, cacheSymbols(mod, elfStart, isArmArch));
         }
 
         auto cachedAddrInfo = addressCache->findSymbol(elf.originalPath, addressLocation.address - elfStart);
@@ -872,7 +878,7 @@ int PerfSymbolTable::lookupFrame(Dwarf_Addr ip, bool isKernel,
 
     // start - relative address of the function start
     // off - offset from the function start
-    addressLocation.relAddr = start + off;
+    addressLocation.relAddr = alignedAddress(start + off, isArmArch);
     Q_ASSERT(addressLocation.parentLocationId != -1);
     Q_ASSERT(m_unwind->hasSymbol(addressLocation.parentLocationId));
 
