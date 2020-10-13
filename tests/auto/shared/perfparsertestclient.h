@@ -63,6 +63,7 @@ public:
 
     struct LocationEvent {
         quint64 address = 0;
+        quint64 relAddr = 0;
         qint32 file = -1;
         quint32 pid = 0;
         qint32 line = -1;
@@ -72,6 +73,8 @@ public:
 
     struct SymbolEvent {
         qint32 name = -1;
+        quint64 relAddr = 0;
+        quint64 size = 0;
         qint32 binary = -1;
         qint32 path = -1;
         bool isKernel = false;
